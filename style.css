@@ -1,0 +1,118 @@
+:root{
+    --vino: rgb(46, 19, 46);
+    --blanco: rgb(207, 207, 207);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    font-size: 62.5%;
+}
+
+.nav-container{
+    width: 50%;
+}
+
+
+.redes{
+    display: flex;
+    width: 12.5%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+i.fa-github{
+    color: var(--bs-gray-200);
+}
+
+i.fa-whatsapp {
+    color: var(--bs-green);
+}
+
+.cabezera{
+    background-color: var(--vino);
+    color: var(--blanco);
+}
+
+.profile{
+    width: 300rem;
+    border-radius: 50%;
+    border: 1rem solid var(--bs-gray-800);
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+p a{
+    text-decoration: none;
+    
+}
+
+i.fa-solid.fa-arrow-down{
+    font-size: 3rem;
+    color: var(--blanco);
+   
+}
+
+
+
+
+main section{
+    padding-top: 5rem;
+}
+
+.skills h6{
+    width: 100vw;
+    height: 2rem;
+    text-align: center;
+    color: var(--blanco);
+    margin-bottom: 2rem;
+    background-color: var(--vino);
+    box-shadow: 0.1rem 0.4rem black;
+    border: 0.1rem solid black;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8rem;
+}
+.skills-icons{
+    max-width: 90rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: var(--bs-gray-400);
+}
+
+
+.icon-skill{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+i.icon-skill.fa-brands.fa-js{
+    color: rgb(215, 215, 0);
+}
+
+i.icon-skill.fa-brands.fa-bootstrap{
+    color: var(--bs-indigo);
+}
+
+i.icon-skill.fa-brands.fa-figma{
+    color: green;
+}
+
+i.icon-skill.fa-brands.fa-markdown{
+    color: red;
+}
+
+i.icon-skill.fa-solid.fa-file-audio{
+    color: purple;
+}
+
