@@ -1,6 +1,9 @@
 :root{
-    --vino: rgb(46, 19, 46);
+    --nav: rgb(78, 24, 112);
+    --vino: #2e132e;
+    --vino-light: #c62268;
     --blanco: rgb(207, 207, 207);
+    --black: #212529;
 }
 *{
     margin: 0%;
@@ -13,14 +16,24 @@ body{
 
 .nav-container{
     width: 50%;
+    height: 100%;
+    padding-bottom: 1rem;
 }
 
+.navbar-nav{
+    height: 100%;
+    padding-top: 1rem;
+}
 
 .redes{
     display: flex;
     width: 12.5%;
     height: 100%;
     justify-content: space-around;
+}
+
+.redes .fa-brands{
+    font-size: 1.8rem;
 }
 
 i.fa-github{
@@ -34,16 +47,24 @@ i.fa-whatsapp {
 .cabezera{
     background-color: var(--vino);
     color: var(--blanco);
+    justify-content: center;
 }
 
 .profile{
-    width: 300rem;
-    border-radius: 50%;
-    border: 1rem solid var(--bs-gray-800);
+    width: 3rem;
+    border-radius: 25%;
+    border: 1rem solid var(--bs-gray-300);
+}
+.profile img{
+    max-width: 350px;
 }
 
 h2{
     text-transform: uppercase;
+}
+
+span h2{
+    color: var(--bs-gray-100);
 }
 
 p a{
@@ -51,28 +72,96 @@ p a{
     
 }
 
-i.fa-solid.fa-arrow-down{
-    font-size: 3rem;
+
+.spacer{
+    aspect-ratio: 1000/300;
+    width: 100%;
+    background: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    .layer1{
+        background-image: url(./src/spacer.svg);
+    }
+
+    .layer2{
+        background-image: url(./src/spacer2.svg);
+    }
+
+    .flip{
+        transform: rotate(180deg);
+    }
+/*
+.wave svg{
+    overflow:hidden;
+    position:relative;
+    }
+    .wave::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 400% 167px;
+    background-position: 33% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23c56d1b"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23c56d1b"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23c56d1b"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .wave::before{
+    background-size: 400% calc(2vw + 167px);
+    }
+    }
+     
+     */
+     
+
+
+
+section{
+    width: 100%;
+    min-height: 400px;
+    padding: 100px 20vw;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    
+}
+
+.about{
+    background-color: #f9b469;
+    
+}
+
+.about ul li{
+    list-style: none;
+    color: var(--black);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#h6About{
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+    text-align: center;
     color: var(--blanco);
-   
+    margin-bottom: 0%;
+    background-color: var(--vino);
 }
 
-
-
-
-main section{
-    padding-top: 5rem;
-}
-
-.skills h6{
-    width: 100vw;
+#h6{
+    width: 100%;
     height: 2rem;
     text-align: center;
     color: var(--blanco);
-    margin-bottom: 2rem;
-    background-color: var(--vino);
-    box-shadow: 0.1rem 0.4rem black;
-    border: 0.1rem solid black;
+    margin-bottom: 0%;
 }
 
 .skills{
@@ -80,15 +169,29 @@ main section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1.8rem;
+    background-color: var(--vino-light);
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
-.skills-icons{
+.skills-data{
     max-width: 90rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: var(--bs-gray-400);
+    
 }
 
+.skills-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
 
 .icon-skill{
     display: flex;
