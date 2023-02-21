@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wave-background{
+  background-image: url(../public/images/wave1.svg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  animation: wave infinite 7s alternate-reverse;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 2000px;
+  }
+  100%{
+    background-position-x: 9000px;
+  }
+}
+
+
