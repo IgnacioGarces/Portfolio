@@ -1,10 +1,13 @@
+import Header from '../Header/Header';
 import '../Sound/Sound.css';
 
 
 export default function Sound() {
     return(
-        <section className='about-container d-flex justify-content-center'>
+        <section className='about-container d-flex flex-column justify-content-center'>
+            <Header/>
             <div className='about-description d-flex justify-content-around  flex-row'>
+                
                 <div className='description d-flex flex-column m-3'>
                     <h1>
                         Diseñador de Imagen y Sonido.

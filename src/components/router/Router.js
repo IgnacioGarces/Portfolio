@@ -7,7 +7,7 @@ export default function Router() {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/home' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/sound-design' element={<Sound/>}/>
                 <Route path='/web-developer' element={<Web/>}/>
                 <Route path='/about' element={<About/>}/>

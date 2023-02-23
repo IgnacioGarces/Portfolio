@@ -9,8 +9,8 @@ export default function Header() {
             <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <Link to='/home'>
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link to='/'>
+                    <a class="nav-link active"  href="#">Home</a>
                     </Link>
                 </li>
                 <li class="nav-item">

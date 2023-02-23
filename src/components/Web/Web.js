@@ -9,6 +9,7 @@ export default function Web() {
             <Header/>
         <section className='about-container d-flex justify-content-center ' >
             <div className='web-description d-flex flex-column '>
+                
                 <div className='description d-flex flex-column m-3'>
                     <h1>
                         Frontend Developer.
@@ -26,7 +27,7 @@ export default function Web() {
 
                     </p>
                 </div>
-                <div className='card-container d-flex flex-row '>
+                <div className='contenedor d-flex flex-row '>
                     <Card image={`${process.env.PUBLIC_URL}/images/rickymorty.jpg`}></Card>
                     <Card className='card-elden' image={`${process.env.PUBLIC_URL}/images/elden-ring.jpg`}></Card>
                 </div>

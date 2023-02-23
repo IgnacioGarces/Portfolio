@@ -1,5 +1,6 @@
 .navbar{
-    margin-bottom: 4rem;
+    height: 6rem;
+    margin-bottom: 2rem;
 }
 
 a{
@@ -10,7 +11,7 @@ a{
 }
 
 .nav-link{
-    color: rgb(0, 44, 165);
+    color: rgb(129, 0, 119);
 }
 
 .collapse{
