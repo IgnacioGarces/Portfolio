@@ -1,0 +1,19 @@
+.navbar{
+    height: 6rem;
+    margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.nav-link{
+    color: rgb(129, 0, 119);
+}
+
+.collapse{
+    width: 100%;
+}

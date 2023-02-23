@@ -1,15 +1,21 @@
-
 .about-container {
     width: 100%;
     height: 100vh;
    
 }
 
-.about-description{
+.web-description{
     align-self: center;
     width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 100%;
+    justify-content: space-evenly;
     margin-top: 4rem;
 }
+
 
 h1{
     color: whitesmoke;
@@ -34,8 +40,3 @@ p{
     line-height: 4rem;
 }
 
-.img-code{
-    width: 40rem;
-    height: 30rem;
-    border-radius: 5%;
-}

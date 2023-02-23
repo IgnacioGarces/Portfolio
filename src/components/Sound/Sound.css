@@ -14,14 +14,12 @@
 h1{
     color: whitesmoke;
     margin-bottom: 0.8rem;
-    margin-left: 1rem;
     font-weight: bolder;
 }
 
 h3{
     color: rgb(136, 0, 113);
     margin-bottom: 3.5rem;
-    margin-left: 1rem;
     line-height: 3rem;
 }
 
@@ -38,4 +36,5 @@ p{
     width: 40rem;
     height: 30rem;
     border-radius: 5%;
+    margin: 5rem;
 }

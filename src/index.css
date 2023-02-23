@@ -19,6 +19,7 @@ code {
   background-repeat: repeat-x;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   animation: wave infinite 7s alternate-reverse;
 }
 
