@@ -14,12 +14,12 @@ h1{
     color: whitesmoke;
     margin-bottom: 0.8rem;
     font-weight: bolder;
-
 }
 
 h3{
     color: rgb(136, 0, 113);
     margin-bottom: 3.5rem;
+    line-height: 3rem;
 }
 
 p{
