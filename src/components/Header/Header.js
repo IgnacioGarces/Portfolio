@@ -10,22 +10,22 @@ export default function Header() {
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <Link to='/'>
-                    <a class="nav-link active"  href="#">Home</a>
+                    <button className='btn btn-outline-info btn-lg'>Home</button>
                     </Link>
                 </li>
                 <li class="nav-item">
                     <Link to='/web-developer'>
-                        <a class="nav-link" href="#">Web-Developer</a>
+                    <button className='btn btn-outline-info btn-lg'>Web Developer</button>
                     </Link>
                 </li>
                 <li class="nav-item">
                     <Link to='/sound-design'>
-                        <a class="nav-link" href="#">Sound-Design</a>
+                    <button className='btn btn-outline-info btn-lg'>Sound Design</button>
                     </Link>
                 </li>
                 <li class="nav-item">
                     <Link to='/about'>
-                        <a class="nav-link ">About</a>
+                    <button className='btn btn-outline-info btn-lg'>About</button>
                     </Link>
                 </li>
             </ul>
