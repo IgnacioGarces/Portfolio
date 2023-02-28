@@ -1,6 +1,8 @@
 .navbar{
-    height: 6rem;
-    margin-bottom: 2rem;
+    height: 18px;
+    width: 100%;
+    position: absolute;
+   
 }
 
 a{
@@ -16,4 +18,16 @@ a{
 
 .collapse{
     width: 100%;
+}
+
+.btn{
+    color: rgb(197, 149, 241);
+    background-color: #00000000;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    color: rgb(158, 65, 245);
+    background-color: #272b33c9;
 }
