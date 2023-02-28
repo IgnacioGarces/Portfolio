@@ -28,8 +28,12 @@ export default function Web() {
                     </p>
                 </div>
                 <div className='contenedor d-flex flex-row '>
-                    <Card image={`${process.env.PUBLIC_URL}/images/rickymorty.jpg`}></Card>
-                    <Card className='card-elden' image={`${process.env.PUBLIC_URL}/images/elden-ring.jpg`}></Card>
+                        <a href='https://rickandmorty-proyecto-ig.netlify.app/'>
+                            <Card image={`${process.env.PUBLIC_URL}/images/rickymorty.jpg`}></Card>
+                        </a>
+                        <a href='https://github.com/IgnacioGarces/Elden-Search'>
+                            <Card className='card-elden' image={`${process.env.PUBLIC_URL}/images/elden-ring.jpg`}></Card>
+                        </a>
                 </div>
             </div>
 
