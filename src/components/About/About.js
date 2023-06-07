@@ -5,31 +5,28 @@ import Header from '../Header/Header';
 
 export default function About() {
     return(
-        <section className='about-container d-flex flex-column justify-content-center'>
+        <section className='about-container d-flex flex-column justify-content-center '>
             <Header/>
-            <div className='about-description d-flex justify-content-around  flex-row-reverse'>
+            <div className='about-description d-flex justify-content-around flex-row'>
 
-                <div className='description d-flex flex-column m-3'>
+                <div className='description d-flex flex-column'>
                     <h1>
-                        Disenador de Imagen y Sonido, Frontend Developer.
+                        Full Stack Web Developer & Sound Designer.
                     </h1>
                     <h3>
-                        Amo diseñar y construir productos digitales, técnica y estética en armonía
+                        I love designing and building digital products, prioritizing harmony between technology and aesthetics.
                     </h3>
                     <p>
-                        Tengo 8 años de experiencia realizando proyectos audiovisuales para cine, tv y teatro.
-                        
-
-
-                    </p> <br/>
-                    <p>
-                        En el 2020, comence a interesarme por la programacion, mi puerta de entrada fue el diseño web, y en un futuro dispositivos mobiles.
+                        Hello! My name is Ignacio Garcés, I was born in 1996 in Bahía Blanca.
 
                     </p><br/>
                     <p>
-                        Mi principal experiencia en este campo es construyendo paginas utilizando HTML5, CSS3, JAVASCRIPT y REACT.
-                        Actualmente me encuentro realizando la DIPLOMATURA de la UTN en FULL STACK DEVELOPER.
-
+                        I have 8 years of experience working on audiovisual projects for film, TV, and theater.
+                        Currently, I develop and design websites and also work on sound for video games.
+                        
+                    </p> <br/>
+                    <p>
+                    I have always been interested in art, and I am motivated by the potential uses of new technologies in digital experiences.
                     </p>
                 </div>
                 <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/About.jpg`} alt='code'/>

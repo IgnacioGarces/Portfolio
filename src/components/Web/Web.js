@@ -15,17 +15,13 @@ export default function Web() {
                         Frontend Developer.
                     </h1>
                     <h3>
-                        Desarrollo web especializado en Front End.
+                        Desarrollo web Full Stack MERN.
                     </h3>
                     <p> 
-                        En el 2020, comence a interesarme por la programacion, mi puerta de entrada fue el diseño web, y en un futuro dispositivos mobiles.
+                    In 2020, I started getting interested in programming, and my entry point was web design. The technologies I have been implementing are MySQL, Express.js, React.js, Node.js, JavaScript, and TypeScript. .
 
                     </p> <br/>
-                    <p>
-                        Mi principal experiencia en este campo es construyendo paginas utilizando HTML5, CSS3, JAVASCRIPT y REACT.
-                        Actualmente me encuentro realizando la DIPLOMATURA de la UTN en FULL STACK DEVELOPER.
-
-                    </p>
+                    
                 </div>
                 <div className='contenedor d-flex flex-row '>
                         <a href='https://rickandmorty-proyecto-ig.netlify.app/'>
