@@ -1,13 +1,13 @@
-import '../About/About.css';
+import './About.css';
 import Header from '../Header/Header';
 
 
 
 export default function About() {
     return(
-        <section className='about-container d-flex flex-column justify-content-center '>
+        <section className='about-container d-flex flex-column  '>
             <Header/>
-            <div className='about-description d-flex justify-content-around flex-row'>
+            <div className='about-description'>
 
                 <div className='description d-flex flex-column'>
                     <h1>
@@ -29,7 +29,7 @@ export default function About() {
                     I have always been interested in art, and I am motivated by the potential uses of new technologies in digital experiences.
                     </p>
                 </div>
-                <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/About.jpg`} alt='code'/>
+                {/* <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/About.jpg`} alt='code'/> */}
             </div>
 
         </section>

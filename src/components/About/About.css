@@ -1,18 +1,19 @@
 
 /* 
 
+.description{
+    margin-bottom: 8rem;
+}
+
+} */
+
 .about-description{
     align-self: center;
     width: 100%;
+    margin-top: 6rem;
 }
-
-.description{
-    margin-bottom: 8rem;
-} */
-
-
 .about-container {
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 h1{
     color: whitesmoke;
