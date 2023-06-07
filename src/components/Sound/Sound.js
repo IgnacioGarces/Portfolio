@@ -1,5 +1,5 @@
 import Header from '../Header/Header';
-import '../Sound/Sound.css';
+import './Sound.css';
 
 
 export default function Sound() {
@@ -12,27 +12,51 @@ export default function Sound() {
                     <h1>
                         Sound Design.
                     </h1>
-                    <h3>
+                    <h2>
                     Soundtrack Design for short films, medium-length films, feature films, and video games.
 
                     Field work in direct sound recording.
                     Collaboration with designers from various fields to create audio-visual experiences.
-                    </h3>
+                    </h2>
                        <br/>
-                    <p>
-                        Film & Tv direction: Centro de Investigación Cinematográfica (CiC) 2015 - 2018, Buenos Aires.
-                    </p> <br/>
-                    <p>
-                        Sound Design: Enerc - 2018 - 2023, Buenos Aires.
-                    </p>
                        
-                </div>
-                <div>
-                <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/Shotgun-Cyberpunk.png`} alt='code'/>
-                <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_Reload_4_Final.wav`} controls></audio>
-                <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_sHOT_M.wav`} controls></audio>
+                    <div className='d-flex flex-row justify-content-between'>
+                        <div className='d-flex flex-column m-2'>
+                            <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/Shotgun-Cyberpunk.png`} alt='code'/>
+                                <div>
+
+                                    <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_Reload_4_Final.wav`} controls></audio>
+                                    <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_sHOT_M.wav`} controls></audio>
+                                </div>
+                        </div>
+                        <div className='d-flex flex-column m-2'>
+                            <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/revolver-cyberpunk.png`} alt='code'/>
+                                <div>
+
+                                    <audio src= {`${process.env.PUBLIC_URL}/sounds/Dijkstra_Reload.wav`} controls></audio>
+                                    <audio src= {`${process.env.PUBLIC_URL}/sounds/DijkstraShot10-disparo9-sin-low.wav`} controls></audio>
+                                </div>
+                        </div>
+                        <div className='d-flex flex-column m-2'>
+                            <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/smgcyberpunk.png`} alt='code'/>
+                                <div>
+
+                                    <audio src= {`${process.env.PUBLIC_URL}/sounds/Vector_Reload.wav`} controls></audio>
+                                    <audio src= {`${process.env.PUBLIC_URL}/sounds/Vector_Burst.wav`} controls></audio>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div className='sound-footer'>   
+                <p>
+                    Film & Tv direction: Centro de Investigación Cinematográfica (CiC) 2015 - 2018, Buenos Aires.
+                </p> <br/>
+                <p>
+                    Sound Design: Enerc - 2018 - 2023, Buenos Aires.
+                </p>
+            </div> 
 
         </section>
     )
