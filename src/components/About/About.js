@@ -11,21 +11,22 @@ export default function About() {
 
                 <div className='description d-flex flex-column'>
                     <h1>
-                        Diseñador de Imagen y Sonido, Frontend Developer.
+                        Full Stack Web Developer & Sound Designer.
                     </h1>
                     <h3>
-                        Amo diseñar y construir productos digitales privilegiando la armonía entre técnica y estética. 
+                        I love designing and building digital products, prioritizing harmony between technology and aesthetics.
                     </h3>
                     <p>
-                        Hola! Mi nombre es Ignacio Garcés, nací en 1996 Bahía Blanca. 
+                        Hello! My name is Ignacio Garcés, I was born in 1996 in Bahía Blanca.
 
                     </p><br/>
                     <p>
-                        Tengo 8 años de experiencia realizando proyectos audiovisuales para cine, tv y teatro.
+                        I have 8 years of experience working on audiovisual projects for film, TV, and theater.
+                        Currently, I develop and design websites and also work on sound for video games.
                         
                     </p> <br/>
                     <p>
-                        Siempre me intereso el arte digital, me motivan las nuevas tecnologías y sus potenciales usos en productos dirigidos a usuarios. 
+                    I have always been interested in art, and I am motivated by the potential uses of new technologies in digital experiences.
                     </p>
                 </div>
                 <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/About.jpg`} alt='code'/>
