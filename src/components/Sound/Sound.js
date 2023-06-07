@@ -18,7 +18,6 @@ export default function Sound() {
                     Field work in direct sound recording.
                     Collaboration with designers from various fields to create audio-visual experiences.
                     </h3>
-                    
                        <br/>
                     <p>
                         Film & Tv direction: Centro de Investigación Cinematográfica (CiC) 2015 - 2018, Buenos Aires.
@@ -26,8 +25,13 @@ export default function Sound() {
                     <p>
                         Sound Design: Enerc - 2018 - 2023, Buenos Aires.
                     </p>
+                       
                 </div>
-                <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/sound-field.jpeg`} alt='code'/>
+                <div>
+                <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/Shotgun-Cyberpunk.png`} alt='code'/>
+                <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_Reload_4_Final.wav`} controls></audio>
+                <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_sHOT_M.wav`} controls></audio>
+                </div>
             </div>
 
         </section>
