@@ -2,13 +2,12 @@
 .sound-container {
     width: 100%;
     height: 100vh;
-   
 }
 
 .sound-description{
     align-self: center;
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 h1{
@@ -21,6 +20,7 @@ h2{
 
     color: rgb(136, 0, 113);
     margin-bottom: 3.5rem;
+    margin-top: 1rem;
     line-height: 3rem;
 }
 
@@ -30,25 +30,32 @@ h3{
     line-height: 3rem;
 }
 
-p{
-    font-size: 1.2rem;
-    color: aliceblue;
-    text-align:start;
-    margin: 1rem;
-    word-spacing: 0.4rem;
-    line-height: 4rem;
-}
 
 .img-code{
-    width: 30rem;
-    height: 20rem;
-    border-radius: 5%;
+    width: 18rem;
+    height: 10rem;
     margin: 5rem;
 }
 
+audio{
+    width: 14rem;
+    
+}
+
 .sound-footer{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    font-size: 0.1rem;
+    color: aliceblue;
+    text-align:start;
 }
+
+/* p{
+    font-size: 0.5rem;
+    color: aliceblue;
+    text-align:start;
+    margin: 0.4rem;
+    word-spacing: 0.4rem;
+    line-height: 2rem;
+} */

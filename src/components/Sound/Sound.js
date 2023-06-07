@@ -23,7 +23,7 @@ export default function Sound() {
                     <div className='d-flex flex-row justify-content-between'>
                         <div className='d-flex flex-column m-2'>
                             <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/Shotgun-Cyberpunk.png`} alt='code'/>
-                                <div>
+                                <div className='d-flex flex-row justify-content-between'>
 
                                     <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_Reload_4_Final.wav`} controls></audio>
                                     <audio src= {`${process.env.PUBLIC_URL}/sounds/Remington_sHOT_M.wav`} controls></audio>
@@ -31,7 +31,7 @@ export default function Sound() {
                         </div>
                         <div className='d-flex flex-column m-2'>
                             <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/revolver-cyberpunk.png`} alt='code'/>
-                                <div>
+                                <div className='d-flex flex-row justify-content-between'>
 
                                     <audio src= {`${process.env.PUBLIC_URL}/sounds/Dijkstra_Reload.wav`} controls></audio>
                                     <audio src= {`${process.env.PUBLIC_URL}/sounds/DijkstraShot10-disparo9-sin-low.wav`} controls></audio>
@@ -39,7 +39,7 @@ export default function Sound() {
                         </div>
                         <div className='d-flex flex-column m-2'>
                             <img className='img-code' src= {`${process.env.PUBLIC_URL}/images/smgcyberpunk.png`} alt='code'/>
-                                <div>
+                                <div className='d-flex flex-row justify-content-between'>
 
                                     <audio src= {`${process.env.PUBLIC_URL}/sounds/Vector_Reload.wav`} controls></audio>
                                     <audio src= {`${process.env.PUBLIC_URL}/sounds/Vector_Burst.wav`} controls></audio>
@@ -54,7 +54,7 @@ export default function Sound() {
                     Film & Tv direction: Centro de Investigación Cinematográfica (CiC) 2015 - 2018, Buenos Aires.
                 </p> <br/>
                 <p>
-                    Sound Design: Enerc - 2018 - 2023, Buenos Aires.
+                    Sound Design: ENERC - 2018 - 2023, Buenos Aires.
                 </p>
             </div> 
 
